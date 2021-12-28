@@ -1,9 +1,17 @@
-import './App.css';
+import React from "react";
 
 function App() {
   return (
-    <div className="App">
-    
+    <div className="grid-container">
+      <header>
+        <a href="/">Shopping Cart</a>
+      </header>
+      <main>
+        product list
+      </main>
+      <footer>
+        All rights reserved
+      </footer>
     </div>
   );
 }

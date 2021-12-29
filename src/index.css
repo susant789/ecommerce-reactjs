@@ -52,3 +52,19 @@ footer{
   color: #fff;
   font-size: 2rem;
 }
+
+.content{
+  display: flex;
+  flex-wrap: wrap;
+}
+.main{
+  flex: 3;
+}
+.sidebar{
+  flex: 1;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+}
